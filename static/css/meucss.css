@@ -6,7 +6,7 @@ body,html{
 
 .titulo{
 	position: absolute;
-	transform: translate(-40%, -330%);
+	transform: translate(-40%, -360%);
 	font: white;
 	font-family: 'Francois One', sans-serif;
 }
@@ -32,7 +32,7 @@ body,html{
 	position: absolute;
 	margin: 20px;
 	max-width: 500px;
-	padding: 36px;
+	padding: 20px;
 	background-position: center;
 	background-color: white;
 
@@ -42,8 +42,30 @@ body,html{
 
 }
 
+.titulo-entrada{
+	margin-left: 100px;
+	font-family: 'Francois One', sans-serif;
+}
 
+input[type=file]{
+	width: 100%;
+	padding: 25px;
+	margin: 45px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+}
 
+.btn{
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
 
-
+.btn:hover{
+	opacity: 1;
+}
 

@@ -20,15 +20,21 @@ table.dataframe, .dataframe th, .dataframe td {
   border: none;
   border-bottom: 1px solid #C8C8C8;
   border-collapse: collapse;
-  text-align:left;
+  text-align:center;
   padding: 10px;
   margin-bottom: 40px;
   font-size: 1.4em;
+
 }
 
 .male th {
     background-color: #add8e6;
     color: white;
+
+}
+
+.male td{
+  width: 100%;
 }
 
 .female th {
